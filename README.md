@@ -38,11 +38,11 @@ Each "cell" can operate independently — ingesting, summarizing, and reasoning 
 │  ├───────────────┤  │  │  ├─ NetworkView      │  │
 │  │  P2P Service  │  │  │  └─ FrictionBar      │  │
 │  │  (libp2p)     │  │  └──────────────────────┘  │
-│  ├───────────────┤  │              ▲              │
-│  │  Tor Service  │  │              │ IPC          │
-│  ├───────────────┤  │              │              │
+│  ├───────────────┤  │             ▲              │
+│  │  Tor Service  │  │             │ IPC          │
+│  ├───────────────┤  │             │              │
 │  │  Agentic      │  │  ┌──────────┴───────────┐  │
-│  │  Controller   │◄├──►│  Preload (Bridge)    │  │
+│  │  Controller   │◄─ ─►│  Preload (Bridge)    │  │
 │  │  (OpenClaw)   │  │  └──────────────────────┘  │
 │  └───────────────┘  │                            │
 └─────────────────────┴────────────────────────────┘
