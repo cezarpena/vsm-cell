@@ -8,7 +8,7 @@ dist/
 dev-app-update.yml
 watch/
 watch-*/
-tor/
+
 watch/
 *.md
 !README.md
