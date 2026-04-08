@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root {
+  --vsm-bg: #0d1117;
+  --vsm-fg: #c9d1d9;
+  --vsm-accent: #58a6ff;
+  --vsm-danger: #f85149;
+  --vsm-success: #3fb950;
+  --vsm-border: #30363d;
+}
+
+body {
+  @apply bg-[#0d1117] text-[#c9d1d9] font-mono m-0 p-0 overflow-hidden;
+  user-select: text;
+}
+
+.cyber-panel {
+  @apply bg-[#161b22] border border-[#30363d] rounded-sm p-4;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.cyber-button {
+  @apply bg-[#21262d] border border-[#30363d] px-3 py-1 rounded-sm text-sm hover:bg-[#30363d] transition-all duration-200 cursor-pointer;
+}
+
+.cyber-input {
+  @apply bg-[#0d1117] border border-[#30363d] px-2 py-1 rounded-sm text-sm focus:outline-none focus:border-[#58a6ff];
+}
+
+/* Scrollbar for Cybernetic Feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+::-webkit-scrollbar-thumb {
+  background: #30363d;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #58a6ff;
+}
+
+/* Prose Overrides for Markdown */
+.prose {
+  @apply text-[#c9d1d9] leading-relaxed;
+}
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  @apply text-[#58a6ff] mt-4 mb-2 font-bold;
+}
+.prose p {
+  @apply my-2;
+}
+.prose ul {
+  @apply list-disc list-inside my-2;
+}
+.prose ol {
+  @apply list-decimal list-inside my-2;
+}
+.prose li {
+  @apply my-1;
+}
+.prose table {
+  @apply w-full border-collapse my-4;
+}
+.prose th, .prose td {
+  @apply border border-[#30363d] p-2 text-left;
+}
+.prose th {
+  @apply bg-[#21262d] text-[#58a6ff];
+}
+.prose code {
+  @apply bg-[#0d1117] px-1 rounded text-[#ff7b72];
+}
+.prose pre {
+  @apply bg-[#0d1117] p-4 rounded-md overflow-x-auto border border-[#30363d] my-4;
+}
+.prose strong {
+  @apply text-[#58a6ff] font-bold;
+}
+.prose blockquote {
+  @apply border-l-4 border-[#30363d] pl-4 italic my-4 text-[#8b949e];
+}
