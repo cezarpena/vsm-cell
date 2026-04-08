@@ -2,7 +2,7 @@
 
 **A fractal, decentralized Cybernetic Power-Up — built on Electron.**
 
-VSM-Cell is a standalone desktop application that acts as an autonomous node in a decentralized cybernetic mesh. It combines local AI-powered document ingestion, secure peer-to-peer networking (with optional Tor anonymity), and agentic capabilities via [OpenClaw](https://github.com/) to form an intelligent, self-organizing knowledge unit.
+VSM-Cell is a standalone desktop application that acts as an autonomous node in a decentralized cybernetic mesh. It combines local AI-powered document ingestion, secure peer-to-peer networking (with optional Tor anonymity), and agentic capabilities via [OpenClaw](https://openclaw.ai/) to form an intelligent, self-organizing knowledge unit.
 
 Each "cell" can operate independently — ingesting, summarizing, and reasoning over local documents — or join a mesh with other cells to exchange queries and reports across an encrypted P2P network.
 
